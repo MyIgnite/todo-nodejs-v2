@@ -11,7 +11,7 @@ Clone o projeto e execute local:</br>
 `yarn` </br>
 `yarn dev` </br>
 
-- [] Deve ser capaz de encontrar o usuário pelo nome de usuário no cabeçalho e passá-lo para request.user
+- [x] Deve ser capaz de encontrar o usuário pelo nome de usuário no cabeçalho e passá-lo para request.user
 - [] Não deve ser capaz de encontrar um usuário não existente pelo nome de usuário no cabeçalho
 - [] Deve permitir que o usuário crie uma nova tarefa quando estiver no plano gratuito e tiver menos de dez tarefas
 - [] Não deve permitir que o usuário crie um novo afazer quando não for Pro e já tiver dez afazeres
