@@ -1,5 +1,6 @@
 # todo-nodejs-v2
-Implantar perfil pago e gratuito para usar a lista de tarefas.
+
+A Aplicação permite a criação de lista de tarefas. Existe perfil pago e gratuito com limite de criação de tarefas.
 
 Abrir projeto com VSCode Online:
 
