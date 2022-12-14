@@ -6,10 +6,14 @@ Abrir projeto com VSCode Online:
 
 https://github1s.com/MyIgnite/todo-nodejs-v2
 
-Clone o projeto e execute local:</br>
+Clone o projeto, navegue até a raiz do projeto e execute:</br>
 
 `yarn` </br>
 `yarn dev` </br>
+
+Execute o comando para testar a aplicação </br>
+`yarn test` </br> </br>
+
 
 - [x] Deve ser capaz de encontrar o usuário pelo nome de usuário no cabeçalho e passá-lo para request.user
 - [x] Não deve ser capaz de encontrar um usuário não existente pelo nome de usuário no cabeçalho
