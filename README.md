@@ -19,6 +19,6 @@ Clone o projeto e execute local:</br>
 - [x] Deve ser capaz de colocar o usuário e todo no pedido quando ambos saem
 - [x] Não deve ser capaz de colocar o usuário e todo o pedido quando o usuário não existe
 - [x] Não deve ser capaz de colocar o usuário e o todo na solicitação quando o id do todo não é uuid
-- [] Não deve ser capaz de colocar o usuário e o todo na solicitação quando o todo não existe
-- [] Deve ser capaz de encontrar o usuário pelo parâmetro de rota id e passá-lo para request.user
-- [] Não deve ser capaz de passar o usuário para request.user quando ele não existe
+- [x] Não deve ser capaz de colocar o usuário e o todo na solicitação quando o todo não existe
+- [x] Deve ser capaz de encontrar o usuário pelo parâmetro de rota id e passá-lo para request.user
+- [x] Não deve ser capaz de passar o usuário para request.user quando ele não existe
