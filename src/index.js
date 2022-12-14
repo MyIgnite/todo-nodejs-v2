@@ -24,7 +24,14 @@ function checksExistsUserAccount(request, response, next) {
 }
 
 function checksCreateTodosUserAvailability(request, response, next) {
-  // Complete aqui
+  const { user } = request;
+  const upToTenTesks = user.todos.length < 10;
+
+  if (user.pro || upToTenTesks) {
+    return next();
+  }
+
+  return response.status(403);
 }
 
 function checksTodoExists(request, response, next) {
@@ -45,6 +52,7 @@ app.post('/users', (request, response) => {
   }
 
   const user = {
+
     id: uuidv4(),
     name,
     username,
